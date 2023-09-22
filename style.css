@@ -453,10 +453,10 @@ a{
   margin-left: 100px;
 }
 #project3 {
-  background-image: url(project/Generator.png);
+  background-image: url(project/Tic-tac.png);
 }
 #project4 {
-  background-image: url(project/Project4.png);
+  background-image: url(project/weatherapp.png);
   margin-left: 100px;
 }
 
@@ -766,5 +766,12 @@ footer {
   .footer-faded-text {
     display: none;
   }
+}
+
+@media (max-width:400px){
+  .project-sub-heading{
+    display: none;
+  }
+  
 }
 /* Footer End */
